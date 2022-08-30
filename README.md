@@ -1,4 +1,2 @@
-- 👋 Hi, I’m @slijirqqq
-- 👀 I’m interested in programming, first of all Python
-- 🌱 I’m currently learning Django Framework
-
+- 👋 Hi, I’m @slijirqqq. My name is Ruslan.
+- 👀 I’m interested in programming, first of all Python Core and Django REST Framework.
