@@ -3,5 +3,3 @@
 </p>
 
 ## Welcome Tolerantists
-
-> Im slijirqqqq and Im from Ukraine
