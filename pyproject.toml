@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "slijirqqq"
+version = "0.1.0"
+description = "slijirqqq inc. repo, where is my rep+?"
+authors = ["slijirqqq <ruslan.torbeev@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev-lint.dependencies]
+mypy = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
