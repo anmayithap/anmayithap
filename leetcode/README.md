@@ -21,3 +21,8 @@
 - [Candy](./candy/README.md)
 - [Trapping Rain Water](./trapping_rain_water/README.md)
 - [Integer To Roman](./integer_to_roman/README.md)
+- [Length of Last Word](./length_of_last_word/README.md)
+- [Longest Common Prefix](./longest_common_prefix/README.md)
+- [Reverse Words in a String](./reverse_words_in_a_string/README.md)
+- [Zigzag Conversion](./zig_zag_conversion/README.md)
+- [Text Justification](./text_justification/README.md)
