@@ -26,3 +26,9 @@
 - [Reverse Words in a String](./reverse_words_in_a_string/README.md)
 - [Zigzag Conversion](./zig_zag_conversion/README.md)
 - [Text Justification](./text_justification/README.md)
+
+### Two Pointers
+
+- [Valid Palindrome](./valid_palindrome/README.md)
+- [Is Subsequence](./is_subsequence/README.md)
+- [3Sum](./three_sum/README.md)
