@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "slijirqqq"
+name = "anmayithap"
 version = "0.1.0"
-description = "slijirqqq inc. repo, where is my rep+?"
-authors = ["slijirqqq <ruslan.torbeev@yandex.ru>"]
+description = "anmayithap inc. repo, where is my rep+?"
+authors = ["anmayithap <ruslan.torbeev@yandex.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.12.*"
+idna = "3.7"
 
 
 [tool.poetry.group.dev-lint.dependencies]

@@ -1,37 +1,31 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
+    - repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v4.6.0
+      hooks:
+          - id: trailing-whitespace
+          - id: end-of-file-fixer
 
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
-    hooks:
-    -   id: trailing-whitespace
-    -   id: end-of-file-fixer
+          - id: check-added-large-files
+          - id: fix-byte-order-marker #  Запрещает файлы, у которых есть маркер порядка байтов utf-8.
+          - id: check-yaml # Проверяет файлы yaml на наличие разбираемого синтаксиса.
+          - id: check-json # Устанавливает стандарт для форматирования файлов json.
+          - id: check-toml # Проверяет toml-файлы на предмет разбираемого синтаксиса.
 
-    -   id: check-added-large-files
-    -   id: check-byte-order-marker  #  Запрещает файлы, у которых есть маркер порядка байтов utf-8.
-    -   id: check-yaml  # Проверяет файлы yaml на наличие разбираемого синтаксиса.
-    -   id: check-json  # Устанавливает стандарт для форматирования файлов json.
-    -   id: check-toml  # Проверяет toml-файлы на предмет разбираемого синтаксиса.
+          - id: detect-private-key # Определяет наличие закрытых ключей.
 
-    -   id: detect-private-key  # Определяет наличие закрытых ключей.
+    - repo: https://github.com/pre-commit/mirrors-mypy
+      rev: "v1.9.0"
+      hooks:
+          - id: mypy
 
--   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: 'v1.8.0'
-    hooks:
-    -   id: mypy
+    - repo: https://github.com/pre-commit/mirrors-autopep8
+      rev: "v2.0.4"
+      hooks:
+          - id: autopep8
 
--   repo: https://github.com/pre-commit/mirrors-autopep8
-    rev: 'v2.0.4'
-    hooks:
-    -   id: autopep8
-
--   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.1.11
-    hooks:
-    -   id: ruff
-
--   repo: https://github.com/pypa/pip-audit
-    rev: v2.6.2
-    hooks:
-    -   id: pip-audit
+    - repo: https://github.com/astral-sh/ruff-pre-commit
+      rev: v0.3.7
+      hooks:
+          - id: ruff
